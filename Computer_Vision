@@ -1,0 +1,183 @@
+# I will use Python and Java languages ​​for this project.
+# The first step is to install and import the OpenCV library. To do this, we use the following command:
+!pip install cv2
+import cv2
+# The next step is to define our image to be used, for this we use the cv2.imread() function
+img = cv2.imread("imageId")
+detec = cv2.CascadeClassifier("Cascaded Mask R-CNN")
+# The next step is very important, because the model needs a gray scale to work. Then we will use the cv2.cvtColor() function
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+{
+  "type": "walls",
+  "imageId": "some_image_id",
+ "detectionResults": {
+   "walls": [
+     {
+       "wallId": "wall_1",
+       "position": {
+         "start": { "x": 10, "y": 15 },
+         "end": { "x": 110, "y": 15 }
+     },
+     "confidence": 0.95
+  },
+  {
+      "wallId": "wall_2",
+      "position": {
+        "start": { "x": 20, "y": 30 },
+        "end": { "x": 120, "y": 30 }
+    },
+    "confidence": 0.9
+  },
+  {
+      "wallId": "wall_3",
+      "position": {
+         "start": { "x": 30, "y": 45 },
+         "end": { "x": 130, "y": 45 }
+   },
+   "confidence": 0.9
+},
+{
+      "wallId": "wall_4",
+      "position": {
+        "start": { "x": 45, "y": 60 },
+        "end": { "x": 140, "y": 60 }
+  },
+  "confidence": 0.9
+  },
+  {
+      "wallId": "wall_5",
+      "position": {
+        "start": { "x": 60, "y": 75 },
+        "end": { "x": 150, "y": 75 }
+  },
+  "confidence": 0.9
+  },
+  {
+    "type": "rooms",
+    "imageId": "some_image_id",
+    "detectionResults": {
+      "rooms": [
+        {
+          "roomId": "room_1",
+          "vertices": [
+           { "x": 10, "y": 10 },
+           { "x": 20, "y": 10 },
+           { "x": 20, "y": 20 },
+           { "x": 10, "y": 20 }
+      ],
+      "confidence": 0.95
+  },
+  {
+         "roomId": "room_2",
+         "vertices": [
+         { "x": 30, "y": 30 },
+         { "x": 40, "y": 30 },
+         { "x": 40, "y": 40 },
+         { "x": 30, "y": 40 },
+         { "x": 25, "y": 35 }
+],
+"confidence": 0.9
+},
+ {
+         "roomId": "room_3",
+         "vertices": [
+         { "x": 50, "y": 50 },
+         { "x": 60, "y": 50 },
+         { "x": 60, "y": 60 },
+         { "x": 50, "y": 60 },
+         { "x": 45, "y": 55 }
+],
+"confidence": 0.9
+},
+ {
+         "roomId": "room_4",
+         "vertices": [
+         { "x": 70, "y": 70 },
+         { "x": 80, "y": 70 },
+         { "x": 80, "y": 80 },
+         { "x": 70, "y": 70 },
+         { "x": 65, "y": 75 }
+],
+"confidence": 0.9
+}, {
+         "roomId": "room_5",
+         "vertices": [
+         { "x": 90, "y": 90 },
+         { "x": 100, "y": 90 },
+         { "x": 100, "y": 100 },
+         { "x": 90, "y": 90 },
+         { "x": 85, "y": 95 }
+],
+"confidence": 0.9
+}, {
+         "roomId": "room_6",
+         "vertices": [
+         { "x": 110, "y": 110 },
+         { "x": 120, "y": 110 },
+         { "x": 120, "y": 120 },
+         { "x": 110, "y": 110 },
+         { "x": 105, "y": 115 }
+],
+"confidence": 0.9
+}, {
+         "roomId": "room_7",
+         "vertices": [
+         { "x": 130, "y": 130 },
+         { "x": 140, "y": 130 },
+         { "x": 140, "y": 140 },
+         { "x": 130, "y": 130 },
+         { "x": 125, "y": 135 }
+],
+"confidence": 0.9
+}, {
+         "roomId": "room_8",
+         "vertices": [
+         { "x": 150, "y": 150 },
+         { "x": 160, "y": 150 },
+         { "x": 160, "y": 160 },
+         { "x": 150, "y": 150 },
+         { "x": 145, "y": 155 }
+],
+"confidence": 0.9
+}, {
+         "roomId": "room_9",
+         "vertices": [
+         { "x": 170, "y": 170 },
+         { "x": 180, "y": 170 },
+         { "x": 180, "y": 180 },
+         { "x": 170, "y": 170 },
+         { "x": 165, "y": 175 }
+],
+"confidence": 0.9
+},
+{
+"type": "page_info",
+"imageId": "some_image_id",
+"detectionResults": {
+"sheet_number": "A3.01",
+"sheet_name": "DOOR SCHEDULES, DOOR AND FRAME TYPES",
+"revision": { // If present
+"number": 4,
+"date": "01/28/22"
+}
+{
+"type": "schedule_of_materials",
+"imageId": "some_image_id",
+"detectionResults": [
+{
+"tableName": "A3 - DOOR ASSEMBLY SCHEDULE [...]",
+"columns": [
+{
+"header": ["ASSEMBLY", "MARK"],
+"rows": ["100A", "100B", "100C"] // rest of the rows
+},
+// rest of the columns
+]
+},
+// other tables
+]
+}
+git add index.html
+
+
+
