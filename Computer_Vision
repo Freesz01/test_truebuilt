@@ -151,25 +151,25 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 "confidence": 0.9
 },
 {
-"type": "page_info",
-"imageId": "some_image_id",
-"detectionResults": {
-"sheet_number": "A3.01",
-"sheet_name": "DOOR SCHEDULES, DOOR AND FRAME TYPES",
-"revision": { // If present
-"number": 4,
-"date": "01/28/22"
+  "type": "page_info",
+  "imageId": "some_image_id",
+  "detectionResults": {
+  "sheet_number": "A3.01",
+  "sheet_name": "DOOR SCHEDULES, DOOR AND FRAME TYPES",
+  "revision": { // If present
+  "number": 4,
+  "date": "01/28/22"
 }
 {
-"type": "schedule_of_materials",
-"imageId": "some_image_id",
-"detectionResults": [
+  "type": "schedule_of_materials",
+  "imageId": "some_image_id",
+  "detectionResults": [
 {
-"tableName": "A3 - DOOR ASSEMBLY SCHEDULE [...]",
-"columns": [
+  "tableName": "A3 - DOOR ASSEMBLY SCHEDULE [...]",
+  "columns": [
 {
-"header": ["ASSEMBLY", "MARK"],
-"rows": ["100A", "100B", "100C"] // rest of the rows
+  "header": ["ASSEMBLY", "MARK"],
+  "rows": ["100A", "100B", "100C"] // rest of the rows
 },
 // rest of the columns
 ]
