@@ -13,7 +13,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
  "detectionResults": {
    "walls": [
      {
-       "wallId": "wall_1",
+       "A-102 .00 - 2ND  FLOOR PLAN.pdf": "wall_1",
        "position": {
          "start": { "x": 10, "y": 15 },
          "end": { "x": 110, "y": 15 }
@@ -21,7 +21,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
      "confidence": 0.95
   },
   {
-      "wallId": "wall_2",
+      "A-112 .00 - 12TH FLOOR PLAN.pdf": "wall_2",
       "position": {
         "start": { "x": 20, "y": 30 },
         "end": { "x": 120, "y": 30 }
@@ -29,7 +29,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     "confidence": 0.9
   },
   {
-      "wallId": "wall_3",
+      "A0.54-FOURTH-FLOOR-REFERENCE-PLAN-Rev.1.pdf": "wall_3",
       "position": {
          "start": { "x": 30, "y": 45 },
          "end": { "x": 130, "y": 45 }
@@ -37,7 +37,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
    "confidence": 0.9
 },
 {
-      "wallId": "wall_4",
+      "A1.02A-SECOND-FLOOR-PLAN-PART-A-Rev.3.pdf": "wall_4",
       "position": {
         "start": { "x": 45, "y": 60 },
         "end": { "x": 140, "y": 60 }
@@ -45,7 +45,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   "confidence": 0.9
   },
   {
-      "wallId": "wall_5",
+      "A1.02B-SECOND-FLOOR-PLAN-PART-B-Rev.3.pdf": "wall_5",
       "position": {
         "start": { "x": 60, "y": 75 },
         "end": { "x": 150, "y": 75 }
@@ -58,7 +58,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     "detectionResults": {
       "rooms": [
         {
-          "roomId": "room_1",
+          "A-190A.pdf": "room_1",
           "vertices": [
            { "x": 10, "y": 10 },
            { "x": 20, "y": 10 },
@@ -68,7 +68,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
       "confidence": 0.95
   },
   {
-         "roomId": "room_2",
+         "A-191.pdf": "room_2",
          "vertices": [
          { "x": 30, "y": 30 },
          { "x": 40, "y": 30 },
@@ -79,7 +79,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 "confidence": 0.9
 },
  {
-         "roomId": "room_3",
+         "A-192.pdf": "room_3",
          "vertices": [
          { "x": 50, "y": 50 },
          { "x": 60, "y": 50 },
@@ -90,7 +90,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 "confidence": 0.9
 },
  {
-         "roomId": "room_4",
+         "A-193.pdf": "room_4",
          "vertices": [
          { "x": 70, "y": 70 },
          { "x": 80, "y": 70 },
@@ -100,7 +100,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ],
 "confidence": 0.9
 }, {
-         "roomId": "room_5",
+         "A-490.pdf": "room_5",
          "vertices": [
          { "x": 90, "y": 90 },
          { "x": 100, "y": 90 },
@@ -110,7 +110,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ],
 "confidence": 0.9
 }, {
-         "roomId": "room_6",
+         "A-491.pdf": "room_6",
          "vertices": [
          { "x": 110, "y": 110 },
          { "x": 120, "y": 110 },
@@ -120,7 +120,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ],
 "confidence": 0.9
 }, {
-         "roomId": "room_7",
+         "A-492.pdf": "room_7",
          "vertices": [
          { "x": 130, "y": 130 },
          { "x": 140, "y": 130 },
@@ -130,7 +130,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ],
 "confidence": 0.9
 }, {
-         "roomId": "room_8",
+         "_13.pdf": "room_8",
          "vertices": [
          { "x": 150, "y": 150 },
          { "x": 160, "y": 150 },
@@ -140,7 +140,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ],
 "confidence": 0.9
 }, {
-         "roomId": "room_9",
+         "_15.pdf": "room_9",
          "vertices": [
          { "x": 170, "y": 170 },
          { "x": 180, "y": 170 },
